@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    width: 400px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+.tooltip {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 10;
+}
+.tooltip-word:hover .tooltip {
+    display: block;
+}
